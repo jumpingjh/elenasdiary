@@ -1,0 +1,35 @@
+# ==========================================
+# Elena's Diary
+# ==========================================
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# GDevelop exported builds
+build/
+dist/
+export/
+exports/
+
+# Node dependencies, if generated locally
+node_modules/
+
+# Cache / temporary directories
+.cache/
+tmp/
+temp/
