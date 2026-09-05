@@ -1,0 +1,23 @@
+{
+  "D001": {
+    "nextId": "D002",
+    "speaker": "Elena",
+    "type": "dialogue",
+    "text": "Uno",
+    "nextAction": ""
+  },
+  "D002": {
+    "nextId": "D003",
+    "speaker": "Piccione",
+    "type": "dialogue",
+    "text": "Due",
+    "nextAction": ""
+  },
+  "D003": {
+    "nextId": "",
+    "speaker": "Elena",
+    "type": "dialogue",
+    "text": "Tre",
+    "nextAction": "EXIT"
+  }
+}
