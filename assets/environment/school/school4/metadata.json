@@ -1,0 +1,188 @@
+{
+  "objects": [
+    {
+      "id": "50521387-98ba-4f65-8bed-63994f111a12",
+      "name": "base",
+      "prompt": "Estintore rosso scuro su piccolo supporto da parete",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Estintore_rosso_scuro_su_picco.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "25d554fd-f8b9-47b1-9367-ae6c81ebab3c",
+      "name": "base",
+      "prompt": "Porta bidelleria chiusa, legno marrone scuro, piccola finestra opaca",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Porta_bidelleria_chiusa_legno.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "24255659-e904-41ec-a98c-a68badf352ba",
+      "name": "base",
+      "prompt": "Porta aula aperta, stessa porta, apertura verso interno",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Porta_aula_aperta_stessa_port.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "18583fbd-fbee-48d8-a6c5-9657d08847c7",
+      "name": "base",
+      "prompt": "Porta bagno chiusa, semplice porta scolastica marrone",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Porta_bagno_chiusa_semplice_p.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "123a9477-4532-4d4d-8643-b04187e33056",
+      "name": "base",
+      "prompt": "Termosifone scolastico grigio chiaro, largo e basso",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Termosifone_scolastico_grigio.png"
+      },
+      "animations": {}
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "a6153b16-d82d-4ad2-977b-1aba2f88e0e6",
+      "folder": "objects/Estintore_rosso_scuro_su_picco",
+      "objects": [
+        {
+          "id": "50521387-98ba-4f65-8bed-63994f111a12",
+          "name": "base",
+          "prompt": "Estintore rosso scuro su piccolo supporto da parete",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Estintore_rosso_scuro_su_picco.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "8b31b6c4-e626-4c38-9e8b-9f1a0a7130b7",
+      "folder": "objects/Porta_bidelleria_chiusa_legno",
+      "objects": [
+        {
+          "id": "25d554fd-f8b9-47b1-9367-ae6c81ebab3c",
+          "name": "base",
+          "prompt": "Porta bidelleria chiusa, legno marrone scuro, piccola finestra opaca",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Porta_bidelleria_chiusa_legno.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "02324c4a-5a97-4e16-bd1e-06b7cdffb3a8",
+      "folder": "objects/Porta_aula_aperta_stessa_port",
+      "objects": [
+        {
+          "id": "24255659-e904-41ec-a98c-a68badf352ba",
+          "name": "base",
+          "prompt": "Porta aula aperta, stessa porta, apertura verso interno",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Porta_aula_aperta_stessa_port.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "8bde6834-fa00-4192-b524-be4cd0dffbf8",
+      "folder": "objects/Porta_bagno_chiusa_semplice_p",
+      "objects": [
+        {
+          "id": "18583fbd-fbee-48d8-a6c5-9657d08847c7",
+          "name": "base",
+          "prompt": "Porta bagno chiusa, semplice porta scolastica marrone",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Porta_bagno_chiusa_semplice_p.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "e5a18222-7cfd-4d00-9fd8-2dc3461d033b",
+      "folder": "objects/Termosifone_scolastico_grigio",
+      "objects": [
+        {
+          "id": "123a9477-4532-4d4d-8643-b04187e33056",
+          "name": "base",
+          "prompt": "Termosifone scolastico grigio chiaro, largo e basso",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Termosifone_scolastico_grigio.png"
+          },
+          "animations": {}
+        }
+      ]
+    }
+  ],
+  "export_version": "1.1",
+  "export_date": "2026-09-04T14:50:50.223665"
+}

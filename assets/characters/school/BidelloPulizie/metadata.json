@@ -1,0 +1,57 @@
+{
+  "group_id": "c982d14d-25c4-4e9e-939e-32f1101ce0b7",
+  "states": [
+    {
+      "character": {
+        "id": "6716c4a0-b79a-47d9-8eba-279914de5a05",
+        "name": "Idle",
+        "prompt": "Create a production-ready side-view pixel-art NPC for a 1990s-style 2D point-and-click adventure game set in an Italian middle school.\n\nMale school cleaner, approximately 50\u201355 years old, slightly eccentric and instantly recognizable, but still grounded and believable.\n\nAppearance:\n\nmedium-short height\nsturdy, slightly stocky build\nslightly messy dark hair with some grey\nlarge expressive moustache\nfriendly and harmless face\nmildly absent-minded expression\n\nHis most recognizable feature is a pair of very large padded 1990s stereo headphones, visually prominent but still believable.\n\nA small portable cassette player is clipped to his belt, with a visible headphone cable running from the player to the headphones.\n\nClothing:\n\npractical school-cleaning work trousers\nsimple work shirt with rolled-up sleeves\nsleeveless utility vest\nworn comfortable sneakers\nsubtly mismatched socks as a small humorous visual detail\n\nHe holds a traditional long-handled floor mop.\n\nHe is completely absorbed in the music:\n\nrelaxed posture\ntiny content smile\nshoulders subtly following the rhythm\none foot occasionally tapping to the beat\n\nHe is not intentionally blocking anyone. He is simply cleaning the floor while being unaware that Elena wants to pass.\n\nThe character should feel slightly funny and memorable without becoming slapstick.\n\nStrict side view, facing RIGHT.\n\nFull body visible, including shoes and the entire mop.\n\nStrong readable silhouette at small scale.\n\nCrisp deliberate pixel art, grounded anatomy, expressive face, 1990s European narrative-adventure aesthetic.\n\nTransparent background.\n\nDo not make him look dirty, threatening, incompetent or grotesque.\n\nAnimation requirement: create the design so his main idle animation can consist of:\n\nslowly moving the mop left and right across the floor\nshifting his shoulders slightly to the music\ntapping one foot to the beat\noccasionally tilting his head as if enjoying the song\n\nNo walking animation is required for the initial scene.\n\nKeep the",
+        "size": {
+          "width": 48,
+          "height": 48
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-09-03T06:57:45.358371+00:00"
+      },
+      "folder": "Idle",
+      "frames": {
+        "rotations": {
+          "south": "Idle/rotations/south.png",
+          "south-east": "Idle/rotations/south-east.png",
+          "east": "Idle/rotations/east.png",
+          "north-east": "Idle/rotations/north-east.png",
+          "north": "Idle/rotations/north.png",
+          "north-west": "Idle/rotations/north-west.png",
+          "west": "Idle/rotations/west.png",
+          "south-west": "Idle/rotations/south-west.png"
+        },
+        "animations": {
+          "Create_a_seamless_side-view_pixel-art_idle_animati": {
+            "south": [
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_000.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_001.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_002.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_003.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_004.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_005.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/south/frame_006.png"
+            ],
+            "east": [
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_000.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_001.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_002.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_003.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_004.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_005.png",
+              "Idle/animations/Create_a_seamless_side-view_pixel-art_idle_animati/east/frame_006.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.1",
+  "export_date": "2026-09-04T14:29:19.379188"
+}

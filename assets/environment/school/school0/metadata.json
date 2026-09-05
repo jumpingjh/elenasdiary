@@ -1,0 +1,188 @@
+{
+  "objects": [
+    {
+      "id": "cd4d1e06-3f96-4bfd-ab5a-f81a032aa9d8",
+      "name": "base",
+      "prompt": "Wall-mounted late-1980s or early-1990s school digital clock, rectangular dark plastic casing, simple red LED digits, slightly bulky institutional design, believable wall-mounted proportions, no modern LCD appearance, no decorative features, frontal view.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Wall-mounted_late-1980s_or_ear.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "b336e5eb-3aa6-4f25-afd3-52236a395c9a",
+      "name": "base",
+      "prompt": "Several middle-school jackets hanging from wall hooks with two 1990s school backpacks hanging among them, believable crowded arrangement, distinct fabric materials, muted school colors, natural asymmetry, realistic side-view scale.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Several_middle-school_jackets.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "8a30ce53-ac8a-419c-bfcf-912cf5332c3a",
+      "name": "base",
+      "prompt": "Group of 4 middle-school jackets hanging naturally from simple wall hooks, varied 1990s styles: padded jacket, denim jacket, light coat and windbreaker, believable fabric folds, different sleeve positions, muted but distinct colors, realistic hanging lengths, no people, no visible rack structure beyond small hooks.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Group_of_4_middle-school_jacke.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "37a2d242-9d1c-4481-ba5f-b8c37608df61",
+      "name": "base",
+      "prompt": "Dense row of 7\u20138 students' coats and jackets hanging from wall hooks, overlapping naturally, mix of padded winter jackets, denim, windbreakers and ordinary coats, varied 1990s muted colors, different lengths and silhouettes, one scarf hanging between two coats, realistic fabric weight and folds.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Dense_row_of_78_students_coa.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "2f695a63-1569-4135-8e67-5d05ae025a1e",
+      "name": "base",
+      "prompt": "Seamlessly tileable pixel-art wall texture for a 1990s Italian public school, small square ceramic tiles in warm off-white and pale beige, thin grey grout lines, subtle individual tile variation, flat frontal surface, no objects, no perspective, perfectly seamless horizontally and vertically.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Seamlessly_tileable_pixel-art.png"
+      },
+      "animations": {}
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "992f9c80-c8d0-4104-bfc8-db9f7ae6c7c1",
+      "folder": "objects/Wall-mounted_late-1980s_or_ear",
+      "objects": [
+        {
+          "id": "cd4d1e06-3f96-4bfd-ab5a-f81a032aa9d8",
+          "name": "base",
+          "prompt": "Wall-mounted late-1980s or early-1990s school digital clock, rectangular dark plastic casing, simple red LED digits, slightly bulky institutional design, believable wall-mounted proportions, no modern LCD appearance, no decorative features, frontal view.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Wall-mounted_late-1980s_or_ear.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "e8fe06d2-d453-43ee-9bdd-336bc5685af1",
+      "folder": "objects/Several_middle-school_jackets",
+      "objects": [
+        {
+          "id": "b336e5eb-3aa6-4f25-afd3-52236a395c9a",
+          "name": "base",
+          "prompt": "Several middle-school jackets hanging from wall hooks with two 1990s school backpacks hanging among them, believable crowded arrangement, distinct fabric materials, muted school colors, natural asymmetry, realistic side-view scale.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Several_middle-school_jackets.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "0ed1cd7b-ad01-456f-869a-74450bf9cd4e",
+      "folder": "objects/Group_of_4_middle-school_jacke",
+      "objects": [
+        {
+          "id": "8a30ce53-ac8a-419c-bfcf-912cf5332c3a",
+          "name": "base",
+          "prompt": "Group of 4 middle-school jackets hanging naturally from simple wall hooks, varied 1990s styles: padded jacket, denim jacket, light coat and windbreaker, believable fabric folds, different sleeve positions, muted but distinct colors, realistic hanging lengths, no people, no visible rack structure beyond small hooks.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Group_of_4_middle-school_jacke.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "9e848184-8e6a-401b-a847-c8ffff5eb98c",
+      "folder": "objects/Dense_row_of_78_students_coa",
+      "objects": [
+        {
+          "id": "37a2d242-9d1c-4481-ba5f-b8c37608df61",
+          "name": "base",
+          "prompt": "Dense row of 7\u20138 students' coats and jackets hanging from wall hooks, overlapping naturally, mix of padded winter jackets, denim, windbreakers and ordinary coats, varied 1990s muted colors, different lengths and silhouettes, one scarf hanging between two coats, realistic fabric weight and folds.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Dense_row_of_78_students_coa.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "ed024d2a-68b4-432c-8ef8-de10ea728762",
+      "folder": "objects/Seamlessly_tileable_pixel-art",
+      "objects": [
+        {
+          "id": "2f695a63-1569-4135-8e67-5d05ae025a1e",
+          "name": "base",
+          "prompt": "Seamlessly tileable pixel-art wall texture for a 1990s Italian public school, small square ceramic tiles in warm off-white and pale beige, thin grey grout lines, subtle individual tile variation, flat frontal surface, no objects, no perspective, perfectly seamless horizontally and vertically.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Seamlessly_tileable_pixel-art.png"
+          },
+          "animations": {}
+        }
+      ]
+    }
+  ],
+  "export_version": "1.1",
+  "export_date": "2026-09-04T15:01:27.430465"
+}

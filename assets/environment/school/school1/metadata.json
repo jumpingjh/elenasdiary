@@ -1,0 +1,584 @@
+{
+  "objects": [
+    {
+      "id": "efcdf021-be9a-4463-8617-42a1f76edccd",
+      "name": "base",
+      "prompt": "Cartello bagno \u2014 pittogrammi semplici e sobri.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Cartello_bagno_pittogrammi_s.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "cd06d3b5-1af7-4fff-a291-1bc7502f30d9",
+      "name": "base",
+      "prompt": "Poster educativo di storia/geografia \u2014 illustrazione semplice, palette crema/verde/marrone.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Poster_educativo_di_storia_geo.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "c4c9a05a-4900-4c32-bdad-f647d618e6ec",
+      "name": "base",
+      "prompt": "Bacheca piccola quasi vuota \u2014 pochi avvisi, puntine visibili.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Bacheca_piccola_quasi_vuota.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "b6d10bf5-9752-47e2-9e73-f8e741e554cf",
+      "name": "base",
+      "prompt": "Cartello biblioteca \u2014 piccola icona libro, senza testo leggibile.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Cartello_biblioteca_piccola.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "ac50db34-2dd0-494d-86b7-8f9e590f2162",
+      "name": "base",
+      "prompt": "Lampada fluorescente con leggero difetto \u2014 stessa forma, una parte appena pi\u00f9 scura, utile come fonte di fastidio per Elena.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Lampada_fluorescente_con_legge.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "9e314499-2e8e-4c16-94bd-c85b1159094a",
+      "name": "base",
+      "prompt": "Lampada fluorescente rettangolare a soffitto \u2014 corpo grigio chiaro, tubo bianco caldo, semplice e istituzionale.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Lampada_fluorescente_rettangol.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "9df458f0-3d51-41ed-8064-347da4878063",
+      "name": "base",
+      "prompt": "Interruttore della luce doppio \u2014 plastica beige ingiallita, anni \u201990.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Interruttore_della_luce_doppio.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "95a67707-2b88-4705-b8eb-a7741cb4009d",
+      "name": "base",
+      "prompt": "Orologio da parete scolastico \u2014 rotondo, cornice grigia, quadrante chiaro.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Orologio_da_parete_scolastico.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "82457f63-fd18-4a39-aba2-e85d74cd9809",
+      "name": "base",
+      "prompt": "Cartello uscita \u2014 semplice pannello verde scuro con simbolo freccia, senza testo leggibile.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Cartello_uscita_semplice_pan.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "7e9831c9-ce0b-4bed-aec3-ab4cbff2941c",
+      "name": "base",
+      "prompt": "Poster evento scolastico \u2014 grafica anni \u201990, colori desaturati, forme geometriche, testo non leggibile",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Poster_evento_scolastico_gra.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "7d7dadd4-99a4-4473-aa1e-7c9dbefaf4a6",
+      "name": "base",
+      "prompt": "Poster biblioteca/lettura \u2014 libro aperto stilizzato, atmosfera tranquilla, nessun testo leggibile.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Poster_biblioteca_lettura_li.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "628178b1-405c-415b-8cc8-9954e6f02af8",
+      "name": "base",
+      "prompt": "Bacheca grande in sughero \u2014 cornice marrone, molti fogli sovrapposti, nessun testo leggibile.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Bacheca_grande_in_sughero_co.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "4b52b30e-c9b1-483b-aba9-71dbb9d0e5e8",
+      "name": "base",
+      "prompt": "Plafoniera rotonda da corridoio \u2014 semplice, vetro opaco bianco.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Plafoniera_rotonda_da_corridoi.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "40f5f12b-5167-41d3-8d82-c328b77f397f",
+      "name": "base",
+      "prompt": "Altoparlante/interfono da parete \u2014 griglia metallica grigio-beige, anni \u201990.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Altoparlante_interfono_da_pare.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "3b94ea77-c099-4406-a765-0cf4381d59f5",
+      "name": "base",
+      "prompt": "Campanella/suoneria scolastica da parete \u2014 piccola scatola metallica o campana elettrica.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Campanella_suoneria_scolastica.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "225295f9-1db0-4452-8ce1-7792545d8f08",
+      "name": "base",
+      "prompt": "Quadro elettrico/cassetta tecnica \u2014 sportello grigio chiaro con maniglia semplice.",
+      "size": {
+        "width": 48,
+        "height": 48
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/Quadro_elettrico_cassetta_tecn.png"
+      },
+      "animations": {}
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "9851ebe0-3a5c-4cce-a4cf-755a1a664986",
+      "folder": "objects/Cartello_bagno_pittogrammi_s",
+      "objects": [
+        {
+          "id": "efcdf021-be9a-4463-8617-42a1f76edccd",
+          "name": "base",
+          "prompt": "Cartello bagno \u2014 pittogrammi semplici e sobri.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Cartello_bagno_pittogrammi_s.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "42cbd65f-09fb-401b-94d4-a7e109560075",
+      "folder": "objects/Poster_educativo_di_storia_geo",
+      "objects": [
+        {
+          "id": "cd06d3b5-1af7-4fff-a291-1bc7502f30d9",
+          "name": "base",
+          "prompt": "Poster educativo di storia/geografia \u2014 illustrazione semplice, palette crema/verde/marrone.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Poster_educativo_di_storia_geo.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "06b9aa11-1398-4b3b-aae2-12010ddf6837",
+      "folder": "objects/Bacheca_piccola_quasi_vuota",
+      "objects": [
+        {
+          "id": "c4c9a05a-4900-4c32-bdad-f647d618e6ec",
+          "name": "base",
+          "prompt": "Bacheca piccola quasi vuota \u2014 pochi avvisi, puntine visibili.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Bacheca_piccola_quasi_vuota.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "31e6c71b-ead4-4dd7-9516-a14f36ef8e01",
+      "folder": "objects/Cartello_biblioteca_piccola",
+      "objects": [
+        {
+          "id": "b6d10bf5-9752-47e2-9e73-f8e741e554cf",
+          "name": "base",
+          "prompt": "Cartello biblioteca \u2014 piccola icona libro, senza testo leggibile.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Cartello_biblioteca_piccola.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "b7bc0efc-bd79-42ac-b327-7ce4d94fa889",
+      "folder": "objects/Lampada_fluorescente_con_legge",
+      "objects": [
+        {
+          "id": "ac50db34-2dd0-494d-86b7-8f9e590f2162",
+          "name": "base",
+          "prompt": "Lampada fluorescente con leggero difetto \u2014 stessa forma, una parte appena pi\u00f9 scura, utile come fonte di fastidio per Elena.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Lampada_fluorescente_con_legge.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "ef0002be-4ee5-4300-bfc2-acd0545ad0b4",
+      "folder": "objects/Lampada_fluorescente_rettangol",
+      "objects": [
+        {
+          "id": "9e314499-2e8e-4c16-94bd-c85b1159094a",
+          "name": "base",
+          "prompt": "Lampada fluorescente rettangolare a soffitto \u2014 corpo grigio chiaro, tubo bianco caldo, semplice e istituzionale.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Lampada_fluorescente_rettangol.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "9510db32-2ffa-431a-991a-54045b225093",
+      "folder": "objects/Interruttore_della_luce_doppio",
+      "objects": [
+        {
+          "id": "9df458f0-3d51-41ed-8064-347da4878063",
+          "name": "base",
+          "prompt": "Interruttore della luce doppio \u2014 plastica beige ingiallita, anni \u201990.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Interruttore_della_luce_doppio.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "067fdd99-338d-42f2-8cbc-ee9c3ee39451",
+      "folder": "objects/Orologio_da_parete_scolastico",
+      "objects": [
+        {
+          "id": "95a67707-2b88-4705-b8eb-a7741cb4009d",
+          "name": "base",
+          "prompt": "Orologio da parete scolastico \u2014 rotondo, cornice grigia, quadrante chiaro.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Orologio_da_parete_scolastico.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "dcd41772-3cf3-4d38-88f6-e8abbf29c403",
+      "folder": "objects/Cartello_uscita_semplice_pan",
+      "objects": [
+        {
+          "id": "82457f63-fd18-4a39-aba2-e85d74cd9809",
+          "name": "base",
+          "prompt": "Cartello uscita \u2014 semplice pannello verde scuro con simbolo freccia, senza testo leggibile.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Cartello_uscita_semplice_pan.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "7a78db88-5620-4f22-b5bc-cc6450e343f3",
+      "folder": "objects/Poster_evento_scolastico_gra",
+      "objects": [
+        {
+          "id": "7e9831c9-ce0b-4bed-aec3-ab4cbff2941c",
+          "name": "base",
+          "prompt": "Poster evento scolastico \u2014 grafica anni \u201990, colori desaturati, forme geometriche, testo non leggibile",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Poster_evento_scolastico_gra.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "064e060a-0317-4fdd-9d48-55ff2e00fdec",
+      "folder": "objects/Poster_biblioteca_lettura_li",
+      "objects": [
+        {
+          "id": "7d7dadd4-99a4-4473-aa1e-7c9dbefaf4a6",
+          "name": "base",
+          "prompt": "Poster biblioteca/lettura \u2014 libro aperto stilizzato, atmosfera tranquilla, nessun testo leggibile.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Poster_biblioteca_lettura_li.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "05a78845-f620-43ad-8fde-c036fdbadcf7",
+      "folder": "objects/Bacheca_grande_in_sughero_co",
+      "objects": [
+        {
+          "id": "628178b1-405c-415b-8cc8-9954e6f02af8",
+          "name": "base",
+          "prompt": "Bacheca grande in sughero \u2014 cornice marrone, molti fogli sovrapposti, nessun testo leggibile.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Bacheca_grande_in_sughero_co.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "9f2cf5ef-e2e4-46f1-9bc5-9d0e73e33db6",
+      "folder": "objects/Plafoniera_rotonda_da_corridoi",
+      "objects": [
+        {
+          "id": "4b52b30e-c9b1-483b-aba9-71dbb9d0e5e8",
+          "name": "base",
+          "prompt": "Plafoniera rotonda da corridoio \u2014 semplice, vetro opaco bianco.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Plafoniera_rotonda_da_corridoi.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "db39e4d5-d86f-432d-b77b-43136e34752d",
+      "folder": "objects/Altoparlante_interfono_da_pare",
+      "objects": [
+        {
+          "id": "40f5f12b-5167-41d3-8d82-c328b77f397f",
+          "name": "base",
+          "prompt": "Altoparlante/interfono da parete \u2014 griglia metallica grigio-beige, anni \u201990.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Altoparlante_interfono_da_pare.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "b8b3cb63-081f-466e-afb0-cc638e44b16c",
+      "folder": "objects/Campanella_suoneria_scolastica",
+      "objects": [
+        {
+          "id": "3b94ea77-c099-4406-a765-0cf4381d59f5",
+          "name": "base",
+          "prompt": "Campanella/suoneria scolastica da parete \u2014 piccola scatola metallica o campana elettrica.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Campanella_suoneria_scolastica.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": "c7e0a9e2-8c08-47e5-8042-842477f798a6",
+      "folder": "objects/Quadro_elettrico_cassetta_tecn",
+      "objects": [
+        {
+          "id": "225295f9-1db0-4452-8ce1-7792545d8f08",
+          "name": "base",
+          "prompt": "Quadro elettrico/cassetta tecnica \u2014 sportello grigio chiaro con maniglia semplice.",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/Quadro_elettrico_cassetta_tecn.png"
+          },
+          "animations": {}
+        }
+      ]
+    }
+  ],
+  "export_version": "1.1",
+  "export_date": "2026-09-04T14:49:21.373981"
+}

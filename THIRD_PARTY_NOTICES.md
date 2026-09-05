@@ -41,3 +41,10 @@ If such material is added to the repository, its applicable license and attribut
 References to third-party tools or services do not imply endorsement, sponsorship, or ownership by those providers of *Elena's Diary*.
 
 Nothing in the *Elena's Diary* license overrides the rights, licenses, or terms applicable to third-party material.
+
+##NF Pixels
+Copyright (c) 2020 Steve Gigou
+Licensed under the SIL Open Font License, Version 1.1.
+
+The full license text is available in:
+licenses/OFL-1.1.txt
