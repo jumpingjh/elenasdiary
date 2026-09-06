@@ -1314,6 +1314,30 @@
         "metadata": "",
         "name": "dialogs/school/lev_00/IT_00_001.json",
         "userAdded": false
+      },
+      {
+        "file": "assets/GUI/ChoiseBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/GUI/ChoiseBackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GUI/ChoiseBackground2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/GUI/ChoiseBackground",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GUI/ChoiseBackground3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/GUI/ChoiseBackground2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2730,6 +2754,62 @@
         "lineHeight": 0,
         "color": "255;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TextChoise",
+      "persistentUuid": "a98e3626-1948-4a1f-a8b3-ae314208be0a",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "nextId",
+          "persistentUuid": "2d8eeacb-e11d-46f1-9d4f-f37bf9a9cfbb",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Text",
+      "font": "NFPixels-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 1,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "NFPixels-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "255;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2740,6 +2820,9 @@
         "children": [
           {
             "objectName": "Speack"
+          },
+          {
+            "objectName": "TextChoise"
           }
         ]
       },
@@ -2778,7 +2861,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.08825105444132708,
+        "zoomFactor": 0.787629010167379,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7905,6 +7988,24 @@
           "persistentUuid": "0541fa62-644a-4a70-84f0-f5da884326cd",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "TextChoiseFirstY",
+          "persistentUuid": "d8e0ba22-ea4a-45e5-bd37-db223b1dc7ac",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "TextChoiseCount",
+          "persistentUuid": "0a4b18b1-70a9-4d58-815e-fbdd422079a7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Status",
+          "persistentUuid": "19b2a64d-8f92-4185-8da2-f30573f601d1",
+          "type": "string",
+          "value": ""
         }
       ],
       "instances": [
@@ -7923,11 +8024,163 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "d9f2c4dc-caeb-44ac-88ff-ac0003545ebf",
+          "width": 0,
+          "x": 616,
+          "y": 155,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ChoisesBox",
+          "persistentUuid": "27a860ef-b4bd-4c52-80ee-3dd2592ffa18",
+          "width": 0,
+          "x": -79,
+          "y": 393,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug",
+          "persistentUuid": "c457ba8f-eeb7-4f64-99c2-4462c1bbd873",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ChoisesBox",
+          "persistentUuid": "f4af7f71-eb5d-4ddb-939c-e338df6d7e1a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets/GUI/ChoiseBackground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/GUI/ChoiseBackground2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 1197,
+                            "y": 0
+                          },
+                          {
+                            "x": 1197,
+                            "y": 359
+                          },
+                          {
+                            "x": 2,
+                            "y": 359
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Debug"
+          },
+          {
+            "objectName": "ChoisesBox"
+          }
+        ]
       },
       "events": [
         {
@@ -7942,7 +8195,60 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "=",
+                "SceneWindowHeight() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "=",
+                "SceneWindowWidth() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "Resizable",
+                "SceneWindowWidth() - 100",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Status",
+                "=",
+                "\"Dialog\""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7969,22 +8275,14 @@
                     "Dialogues",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
-                    "Speack",
-                    "Text",
-                    "=",
-                    "VariableString(Dialogues[VariableString(CurrentDialogueId)].text)"
+                    "",
+                    "\"DialogTimer\""
                   ]
                 }
               ]
@@ -7996,18 +8294,13 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "StringVariable"
               },
               "parameters": [
-                "",
-                "\"Left\""
+                "Status",
+                "=",
+                "\"Dialog\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [],
@@ -8017,41 +8310,473 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
+                    "value": "MouseButtonFromTextPressed"
                   },
                   "parameters": [
-                    "VariableString(Dialogues[VariableString(CurrentDialogueId)].nextAction)",
-                    "!=",
-                    "\"EXIT\""
+                    "",
+                    "\"Left\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogTimer\"",
+                    ">",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
-                    "CurrentDialogueId",
-                    "=",
-                    "VariableString(Dialogues[VariableString(CurrentDialogueId)].nextId)"
+                    "",
+                    "\"DialogTimer\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].text)",
+                        "!=",
+                        "\"choises\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::SetBold"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::SetItalic"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Variable(Dialogues.types[VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].type)].bold)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::SetBold"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "Text",
+                            "=",
+                            "\"OK\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Variable(Dialogues.types[VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].type)].italic)",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::SetItalic"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].nextAction)",
+                            "!=",
+                            "\"EXIT\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::ChangeColor"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "VariableString(Dialogues.speakers[VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].speaker)].color)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::Text::SetFontSize"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "=",
+                            "Variable(Dialogues.types[VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].type)].size) "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "Text",
+                            "=",
+                            "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].text)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "CurrentDialogueId",
+                            "=",
+                            "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].nextId)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Speack",
+                            "Text",
+                            "=",
+                            "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].nextAction)"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Speack",
-                    "Text",
-                    "=",
-                    "VariableString(Dialogues[VariableString(CurrentDialogueId)].text)"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "VariableString(Dialogues.nodes[VariableString(CurrentDialogueId)].text)",
+                        "=",
+                        "\"choises\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TextChoiseFirstY",
+                            "=",
+                            "ChoisesBox.Y() + 30"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TextChoiseCount",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ChoisesBox",
+                            "Tween",
+                            "\"ToShow\"",
+                            "230",
+                            "\"linear\"",
+                            "0.3",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "ChoisesBox",
+                            "\"0;0;0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Status",
+                            "=",
+                            "\"Choise\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                      "iterableVariableName": "Dialogues.nodes[CurrentDialogueId].choices",
+                      "valueIteratorVariableName": "child",
+                      "keyIteratorVariableName": "",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TextChoise",
+                            "ChoisesBox.X() + 30",
+                            "Variable(TextChoiseFirstY)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "TextChoise",
+                            "Text",
+                            "=",
+                            "VariableString(child.text)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TextChoiseFirstY",
+                            "+",
+                            "25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "TextChoiseCount",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "ChoisesBox",
+                            "Resizable",
+                            "ChoisesBox.Width()",
+                            "ChoisesBox.Height() + 30"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "TextChoise",
+                            "nextId",
+                            "=",
+                            "VariableString(child.nextId)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Status",
+                            "=",
+                            "\"Choise\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"ChoiseTimer\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Status",
+                "=",
+                "\"Choise\""
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Else",
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ChoiseTimer\"",
+                ">",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "TextChoise",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"ChoiseTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
@@ -8059,12 +8784,161 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Speack",
+                    "Debug",
                     "Text",
                     "=",
-                    "VariableString(Dialogues[VariableString(CurrentDialogueId)].nextAction)"
+                    "TextChoise.VariableString(nextId)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "CurrentDialogueId",
+                    "=",
+                    "TextChoise.VariableString(nextId)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"Dialog\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogTimer\""
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "TextChoise",
+                    "\"216;255;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "ChoisesBox",
+                    "Tween",
+                    "\"ToHide\"",
+                    "0",
+                    "\"linear\"",
+                    "0.4",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickAllInstances"
+                  },
+                  "parameters": [
+                    "",
+                    "TextChoise"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "TextChoise",
+                        "Tween",
+                        "\"ToHide\"",
+                        "0",
+                        "\"linear\"",
+                        "0.4",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "Tween",
+                "\"ToShow\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ChoisesBox",
+                "Tween",
+                "\"ToShow\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "TextChoise",
+                "Tween",
+                "\"ToHide\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TextChoise",
+                "Tween",
+                "\"ToHide\""
               ]
             }
           ]

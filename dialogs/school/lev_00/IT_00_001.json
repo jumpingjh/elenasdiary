@@ -1,23 +1,124 @@
 {
-  "D001": {
-    "nextId": "D002",
-    "speaker": "Elena",
-    "type": "dialogue",
-    "text": "Uno",
-    "nextAction": ""
+  "nodes": {
+    "D001": {
+      "nextId": "D002",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "dialogue",
+      "nextAction": ""
+    },
+    "D002": {
+      "nextId": "D003",
+      "speaker": "Piccione",
+      "type": "thought",
+      "text": "thought",
+      "nextAction": ""
+    },
+    "D003": {
+      "nextId": "D004",
+      "speaker": "Elena",
+      "type": "whisper",
+      "text": "whisper",
+      "nextAction": ""
+    },
+    "D004": {
+      "nextId": "D005",
+      "speaker": "Piccione",
+      "type": "shout",
+      "text": "shout",
+      "nextAction": ""
+    },
+    "D005": {
+      "nextId": "D006",
+      "speaker": "Elena",
+      "type": "system",
+      "text": "system",
+      "nextAction": ""
+    },
+"D006": {
+  "speaker": "Elena",
+  "type": "choice",
+  "text": "choises",
+  "choices": [
+    {
+      "text": "Seguo il piccione.",
+      "nextId": "D007"
+    },
+    {
+      "text": "Resto qui ancora un po'.",
+      "nextId": "D008"
+    },
+    {
+      "text": "Gli chiedo dove stiamo andando.",
+      "nextId": "D009"
+    }
+  ]
+},
+
+"D007": {
+  "nextId": "D010",
+  "speaker": "Elena",
+  "type": "dialogue",
+  "text": "Va bene. Ti seguo.",
+  "nextAction": ""
+},
+
+"D008": {
+  "nextId": "D010",
+  "speaker": "Elena",
+  "type": "dialogue",
+  "text": "Aspetta. Ho bisogno di un momento.",
+  "nextAction": ""
+},
+
+"D009": {
+  "nextId": "D010",
+  "speaker": "Elena",
+  "type": "dialogue",
+  "text": "Prima però dimmi dove stiamo andando.",
+  "nextAction": ""
+}
   },
-  "D002": {
-    "nextId": "D003",
-    "speaker": "Piccione",
-    "type": "dialogue",
-    "text": "Due",
-    "nextAction": ""
+
+  "speakers": {
+    "Elena": {
+      "color": "151;23;141"
+    },
+    "Piccione": {
+      "color": "51;230;41"
+    }
   },
-  "D003": {
-    "nextId": "",
-    "speaker": "Elena",
-    "type": "dialogue",
-    "text": "Tre",
-    "nextAction": "EXIT"
+
+  "types": {
+    "dialogue": {
+      "size": 24,
+      "bold": 1,
+      "italic": 0
+    },
+    "thought": {
+      "size": 22,
+      "bold": 0,
+      "italic": 0
+    },
+    "whisper": {
+      "size": 19,
+      "bold": 0,
+      "italic": 1
+    },
+    "shout": {
+      "size": 29,
+      "bold": 1,
+      "italic": 0
+    },
+    "system": {
+      "size": 22,
+      "bold": 0,
+      "italic": 0
+    },
+    "choice": {
+      "size": 24,
+      "bold": 1,
+      "italic": 0
+    }
   }
 }
