@@ -1,0 +1,110 @@
+{
+  "nodes": {
+    "D001": {
+      "nextId": "D002",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "dialogue",
+      "nextSubAction": [
+        {
+          "type": "MOVE_Y",
+          "target": "TestoMovibile",
+          "value": -200,
+          "duration": 1
+        }
+      ]
+    },
+
+    "D002": {
+      "nextId": "D003",
+      "speaker": "Elena",
+      "type": "thought",
+      "text": "thought",
+      "nextSubAction": [
+        {
+          "type": "MOVE_Y",
+          "target": "TestoMovibile",
+          "value": -100,
+          "duration": 1
+        }
+      ]
+    },
+
+    "D003": {
+      "nextId": "D004",
+      "speaker": "Elena",
+      "type": "whisper",
+      "text": "whisper",
+      "nextSubAction": []
+    },
+
+    "D004": {
+      "nextId": "D005",
+      "speaker": "Elena",
+      "type": "shout",
+      "text": "shout",
+      "nextSubAction": []
+    },
+
+    "D005": {
+      "nextId": "D006",
+      "speaker": "Elena",
+      "type": "system",
+      "text": "system",
+      "nextSubAction": []
+    },
+
+    "D006": {
+      "speaker": "Elena",
+      "type": "choice",
+      "text": "choises",
+      "nextSubAction": [],
+      "choises": [
+        {
+          "text": "Seguo il piccione.",
+          "nextId": "D007"
+        },
+        {
+          "text": "Resto qui ancora un po'.",
+          "nextId": "D008"
+        },
+        {
+          "text": "Gli chiedo dove stiamo andando.",
+          "nextId": "D009"
+        }
+      ]
+    },
+
+    "D007": {
+      "nextId": "D010",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Va bene. Ti seguo.",
+      "nextSubAction": []
+    },
+
+    "D008": {
+      "nextId": "D010",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Aspetta. Ho bisogno di un momento.",
+      "nextSubAction": []
+    },
+
+    "D009": {
+      "nextId": "D010",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Prima però dimmi dove stiamo andando.",
+      "nextSubAction": []
+    },
+
+    "D010": {
+      "nextId": "EXIT",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Fine del dialogo.",
+      "nextSubAction": []
+    }
+  }
+}

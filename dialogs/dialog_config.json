@@ -1,0 +1,43 @@
+{
+  "speakers": {
+    "Elena": {
+      "color": "151;23;141"
+    },
+    "Piccione": {
+      "color": "51;230;41"
+    }
+  },
+
+  "types": {
+    "dialogue": {
+      "size": 24,
+      "bold": 1,
+      "italic": 1
+    },
+    "thought": {
+      "size": 22,
+      "bold": 0,
+      "italic": 0
+    },
+    "whisper": {
+      "size": 19,
+      "bold": 0,
+      "italic": 1
+    },
+    "shout": {
+      "size": 29,
+      "bold": 1,
+      "italic": 0
+    },
+    "system": {
+      "size": 22,
+      "bold": 0,
+      "italic": 0
+    },
+    "choice": {
+      "size": 24,
+      "bold": 1,
+      "italic": 0
+    }
+  }
+}

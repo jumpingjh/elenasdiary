@@ -2,123 +2,495 @@
   "nodes": {
     "D001": {
       "nextId": "D002",
-      "speaker": "Elena",
+      "speaker": "Pigeon",
       "type": "dialogue",
-      "text": "dialogue",
-      "nextAction": ""
+      "text": "elena",
+      "nextSubAction": []
     },
+
     "D002": {
       "nextId": "D003",
-      "speaker": "Piccione",
-      "type": "thought",
-      "text": "thought",
-      "nextAction": ""
+      "speaker": "Pigeon",
+      "type": "shout",
+      "text": "Elena!",
+      "nextSubAction": []
     },
+
     "D003": {
       "nextId": "D004",
-      "speaker": "Elena",
-      "type": "whisper",
-      "text": "whisper",
-      "nextAction": ""
+      "speaker": "Pigeon",
+      "type": "shout",
+      "text": "E L E N A!!!",
+      "nextSubAction": [
+        {
+          "type": "ELENA_STEP",
+          "target": "Elena"
+        }
+      ]
     },
+
     "D004": {
       "nextId": "D005",
-      "speaker": "Piccione",
-      "type": "shout",
-      "text": "shout",
-      "nextAction": ""
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "...Aspetta, tu puoi parlare.",
+      "nextSubAction": []
     },
+
     "D005": {
       "nextId": "D006",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Perspicace.",
+      "nextSubAction": []
+    },
+
+    "D006": {
+      "nextId": "D007",
       "speaker": "Elena",
-      "type": "system",
-      "text": "system",
-      "nextAction": ""
+      "type": "dialogue",
+      "text": "Ma che razza di scherzo è?",
+      "nextSubAction": []
     },
-"D006": {
-  "speaker": "Elena",
-  "type": "choice",
-  "text": "choises",
-  "choices": [
-    {
-      "text": "Seguo il piccione.",
-      "nextId": "D007"
-    },
-    {
-      "text": "Resto qui ancora un po'.",
-      "nextId": "D008"
-    },
-    {
-      "text": "Gli chiedo dove stiamo andando.",
-      "nextId": "D009"
-    }
-  ]
-},
 
-"D007": {
-  "nextId": "D010",
-  "speaker": "Elena",
-  "type": "dialogue",
-  "text": "Va bene. Ti seguo.",
-  "nextAction": ""
-},
+    "D007": {
+      "nextId": "D008",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Ho sentito parlare di santi che parlavano con gli animali.",
+      "nextSubAction": []
+    },
 
-"D008": {
-  "nextId": "D010",
-  "speaker": "Elena",
-  "type": "dialogue",
-  "text": "Aspetta. Ho bisogno di un momento.",
-  "nextAction": ""
-},
+    "D008": {
+      "nextId": "D009",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Principesse, mai",
+      "nextSubAction": []
+    },
 
-"D009": {
-  "nextId": "D010",
-  "speaker": "Elena",
-  "type": "dialogue",
-  "text": "Prima però dimmi dove stiamo andando.",
-  "nextAction": ""
-}
-  },
+    "D009": {
+      "nextId": "D010",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Principessa? Boh.",
+      "nextSubAction": []
+    },
 
-  "speakers": {
-    "Elena": {
-      "color": "151;23;141"
+    "D010": {
+      "nextId": "D011",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Devo andare in aula. Quindi...cosa vuoi?",
+      "nextSubAction": []
     },
-    "Piccione": {
-      "color": "51;230;41"
-    }
-  },
 
-  "types": {
-    "dialogue": {
-      "size": 24,
-      "bold": 1,
-      "italic": 0
+    "D011": {
+      "nextId": "D012",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Voglio solo accompagnarti",
+      "nextSubAction": []
     },
-    "thought": {
-      "size": 22,
-      "bold": 0,
-      "italic": 0
+
+    "D012": {
+      "nextId": "D013",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "So dov'è la mia aula",
+      "nextSubAction": []
     },
-    "whisper": {
-      "size": 19,
-      "bold": 0,
-      "italic": 1
+
+    "D013": {
+      "nextId": "D014",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "È la stessa da settecentottanta giorni",
+      "nextSubAction": []
     },
-    "shout": {
-      "size": 29,
-      "bold": 1,
-      "italic": 0
+
+    "D014": {
+      "nextId": "D015",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Escluse gite, assenze e due scioperi",
+      "nextSubAction": []
     },
-    "system": {
-      "size": 22,
-      "bold": 0,
-      "italic": 0
+
+    "D015": {
+      "nextId": "D016",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Seguimi lo stesso.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_MOVE_TO_NEON",
+          "target": "Pigeon"
+        }
+      ]
     },
-    "choice": {
-      "size": 24,
-      "bold": 1,
-      "italic": 0
+
+    "D016": {
+      "nextId": "D017",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Vieni qui.",
+      "nextSubAction": []
+    },
+
+    "D017": {
+      "nextId": "D018",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "No.",
+      "nextSubAction": []
+    },
+
+    "D018": {
+      "nextId": "D019",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Perché?",
+      "nextSubAction": []
+    },
+
+    "D019": {
+      "nextId": "D020",
+      "speaker": "Elena",
+      "type": "whisper",
+      "text": "Perché mi dà fastidio.",
+      "nextSubAction": []
+    },
+
+    "D020": {
+      "nextId": "D021",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "La luce?",
+      "nextSubAction": []
+    },
+
+    "D021": {
+      "nextId": "D022",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Non sono affari tuoi.",
+      "nextSubAction": []
+    },
+
+    "D022": {
+      "nextId": "D023",
+      "speaker": "Pigeon",
+      "type": "whisper",
+      "text": "Hai ragione, però una cosa te la posso dire.",
+      "nextSubAction": []
+    },
+
+    "D023": {
+      "nextId": "D024",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Ci sono luci, rumori, posti... cose che per qualcuno non significano niente.",
+      "nextSubAction": []
+    },
+
+    "D024": {
+      "nextId": "D025",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Per qualcun altro diventano difficili da ignorare.",
+      "nextSubAction": []
+    },
+
+    "D025": {
+      "nextId": "D026",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "E più ci resti vicino, più si fanno sentire.",
+      "nextSubAction": []
+    },
+
+    "D026": {
+      "nextId": "D027",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Sì. E quindi?",
+      "nextSubAction": []
+    },
+
+    "D027": {
+      "nextId": "D028",
+      "speaker": "Pigeon",
+      "type": "whisper",
+      "text": "Quindi se una cosa ti dà fastidio, magari non serve restarle davanti per dimostrare qualcosa.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_MOVE_AWAY",
+          "target": "Pigeon"
+        }
+      ]
+    },
+
+    "D028": {
+      "nextId": "D029",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Dove sono le tue compagne?",
+      "nextSubAction": []
+    },
+
+    "D029": {
+      "nextId": "D030",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Più avanti. E non sono affari tuoi neanche loro.",
+      "nextSubAction": []
+    },
+
+    "D030": {
+      "nextId": "D031",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Ti ho mai raccontato della Principessa...",
+      "nextSubAction": []
+    },
+
+    "D031": {
+      "nextId": "D032",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "No. E non mi interessa.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_MOVE_TO_MAP",
+          "target": "Pigeon"
+        }
+      ]
+    },
+
+    "D032": {
+      "nextId": "D033",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Forza, avvicinati e leggi quel cartello.",
+      "nextSubAction": []
+    },
+
+    "D033": {
+      "nextId": "D034",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "So com'è fatta la mia scuola.",
+      "nextSubAction": []
+    },
+
+    "D034": {
+      "nextId": "D035",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Benissimo.",
+      "nextSubAction": []
+    },
+
+    "D035": {
+      "nextId": "D036",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Allora dimmi dov'è la biblioteca.",
+      "nextSubAction": []
+    },
+
+    "D036": {
+      "nextId": "D037",
+      "speaker": "Elena",
+      "type": "thought",
+      "text": "...",
+      "nextSubAction": []
+    },
+
+    "D037": {
+      "nextId": "EXIT",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Forza, avvicinati.",
+      "nextSubAction": []
+    },
+
+
+    "D101": {
+      "nextId": "D102",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Adesso prendi quello.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_MOVE_TO_RAVEN_PICTURE",
+          "target": "Pigeon"
+        }
+      ]
+    },
+
+    "D102": {
+      "nextId": "D103",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Cosa? E perché dovrei prenderlo?",
+      "nextSubAction": []
+    },
+
+    "D103": {
+      "nextId": "D104",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Perché potrebbe servirti.",
+      "nextSubAction": []
+    },
+
+    "D104": {
+      "nextId": "D105",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Potrebbe anche NON servirmi.",
+      "nextSubAction": []
+    },
+
+    "D105": {
+      "nextId": "EXIT",
+      "speaker": "Pigeon",
+      "type": "shout",
+      "text": "Prendilo!",
+      "nextSubAction": []
+    },
+
+
+    "D201": {
+      "nextId": "D202",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Ora posso andare in classe?",
+      "nextSubAction": []
+    },
+
+    "D202": {
+      "nextId": "D203",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Certo.",
+      "nextSubAction": []
+    },
+
+    "D203": {
+      "nextId": "D204",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Finalmente.",
+      "nextSubAction": []
+    },
+
+    "D204": {
+      "nextId": "D205",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Ehi, principessa.",
+      "nextSubAction": []
+    },
+
+    "D205": {
+      "nextId": "D206",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Cosa?",
+      "nextSubAction": []
+    },
+
+    "D206": {
+      "nextId": "D207",
+      "speaker": "Pigeon",
+      "type": "whisper",
+      "text": "Stai tranquilla, volevo solo aiutarti.",
+      "nextSubAction": []
+    },
+
+    "D207": {
+      "nextId": "D208",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Non te l'avevo chiesto.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_OPEN_WINGS",
+          "target": "Pigeon"
+        }
+      ]
+    },
+
+    "D208": {
+      "nextId": "D209",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Dove vai?",
+      "nextSubAction": []
+    },
+
+    "D209": {
+      "nextId": "D210",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Da un amante dei trattori.",
+      "nextSubAction": []
+    },
+
+    "D210": {
+      "nextId": "D211",
+      "speaker": "Elena",
+      "type": "thought",
+      "text": "...",
+      "nextSubAction": []
+    },
+
+    "D211": {
+      "nextId": "D212",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "È una storia lunga.",
+      "nextSubAction": []
+    },
+
+    "D212": {
+      "nextId": "D213",
+      "speaker": "Elena",
+      "type": "dialogue",
+      "text": "Non voglio saperla.",
+      "nextSubAction": []
+    },
+
+    "D213": {
+      "nextId": "D214",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Perfetto.",
+      "nextSubAction": []
+    },
+
+    "D214": {
+      "nextId": "D215",
+      "speaker": "Pigeon",
+      "type": "dialogue",
+      "text": "Ciao, Elena.",
+      "nextSubAction": []
+    },
+
+    "D215": {
+      "nextId": "EXIT",
+      "speaker": "Elena",
+      "type": "whisper",
+      "text": "Ciao.",
+      "nextSubAction": [
+        {
+          "type": "PIGEON_FLY_AWAY",
+          "target": "Pigeon"
+        }
+      ]
     }
   }
 }
