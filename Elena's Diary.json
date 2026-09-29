@@ -1778,6 +1778,38 @@
         "name": "TestItem2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/GUI/diario_menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/GUI/diario_menu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Main.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GUI/zainoaperto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/GUI/zainoaperto.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GUI/inventory/oggetti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/GUI/inventory/oggetti.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -4386,11 +4418,172 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MenuDiary",
+      "persistentUuid": "3ec507b3-b59b-47a5-a02d-63faaab1b251",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Main",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Main",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 5
+                      },
+                      {
+                        "x": 563,
+                        "y": 5
+                      },
+                      {
+                        "x": 563,
+                        "y": 736
+                      },
+                      {
+                        "x": 13,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "InventoryBag",
+      "persistentUuid": "4504f50e-2839-4140-a7c6-8fa94cf551db",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/GUI/zainoaperto.png",
+                  "points": [
+                    {
+                      "name": "Object1",
+                      "x": 850,
+                      "y": 292.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31,
+                        "y": 4
+                      },
+                      {
+                        "x": 1507,
+                        "y": 4
+                      },
+                      {
+                        "x": 1507,
+                        "y": 973
+                      },
+                      {
+                        "x": 31,
+                        "y": 973
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "GUI",
+        "children": [
+          {
+            "folderName": "Inventory",
+            "children": [
+              {
+                "objectName": "InventoryBag"
+              }
+            ]
+          },
+          {
+            "folderName": "menu",
+            "children": [
+              {
+                "objectName": "MenuDiary"
+              }
+            ]
+          }
+        ]
+      },
       {
         "objectName": "Zoom"
       },
@@ -9071,7 +9264,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Begin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11326,9 +11518,9 @@
           "layer": "UI",
           "name": "InventoryBag",
           "persistentUuid": "54693352-7d37-4abe-869b-5e242d6406f8",
-          "width": 1197,
-          "x": 45,
-          "y": -543,
+          "width": 849,
+          "x": 177,
+          "y": -534,
           "zOrder": 1009,
           "numberProperties": [],
           "stringProperties": [],
@@ -12042,73 +12234,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "InventoryBag",
-          "persistentUuid": "4504f50e-2839-4140-a7c6-8fa94cf551db",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "InventoryItem",
           "persistentUuid": "80ef804b-8f0f-4ed3-b05e-e5c71c8fb516",
           "type": "Sprite",
@@ -12548,9 +12673,6 @@
             "objectName": "Player"
           },
           {
-            "objectName": "InventoryBag"
-          },
-          {
             "objectName": "InventoryItem"
           }
         ]
@@ -12610,6 +12732,17 @@
                 "Animation",
                 "=",
                 "\"Walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"Effect\"",
+                "no"
               ]
             }
           ]
@@ -13324,7 +13457,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Begin",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13609,6 +13741,17 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "yes"
+                      ]
                     }
                   ],
                   "events": [
@@ -13626,8 +13769,8 @@
                           "parameters": [
                             "",
                             "InventoryItem",
-                            "InventoryBag.X() + 40 + mod(Variable(InventoryIndex), 4) * 100",
-                            "InventoryBag.Y() + 40 + floor(Variable(InventoryIndex) / 4) * 100",
+                            "InventoryBag.PointX(\"Object1\") + mod(Variable(InventoryIndex), 3) * 100",
+                            "InventoryBag.PointY(\"Object1\") + floor(Variable(InventoryIndex) / 3) * 95",
                             "\"UI\""
                           ]
                         },
@@ -13700,9 +13843,9 @@
                       "parameters": [
                         "InventoryItem",
                         "=",
-                        "InventoryBag.X() + 40 + mod(InventoryItem.Variable(InventoryIndex), 4) * 100",
+                        "InventoryBag.PointX(\"Object1\") + mod(InventoryItem.Variable(InventoryIndex), 3) * 100",
                         "=",
-                        "InventoryBag.Y() + 40 + floor(InventoryItem.Variable(InventoryIndex) / 4) * 100"
+                        "InventoryBag.PointY(\"Object1\") + floor(InventoryItem.Variable(InventoryIndex) / 3) * 100"
                       ]
                     }
                   ]
@@ -13772,6 +13915,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Inventory manage Posso usare il doppio click del mouse oppure le frecce -",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14331,6 +14475,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Inventory hide - se esco con un oggetto STATUS = \"USING_ITEM\"",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14381,6 +14526,17 @@
                         "\"easeOutQuart\"",
                         "1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "no"
                       ]
                     }
                   ]
@@ -14451,6 +14607,17 @@
                         "\"easeOutQuart\"",
                         "1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "\"Effect\"",
+                        "no"
                       ]
                     }
                   ]
@@ -14739,6 +14906,19 @@
               "booleanParameters": {
                 "isCastingShadow": true
               }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 5,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ]
         },
@@ -14844,6 +15024,707 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "TestingMenu",
+      "name": "TestingMenu",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 319,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Elena",
+          "persistentUuid": "b0140113-b5f4-42b7-87ec-615f12495f3a",
+          "width": 415,
+          "x": 320,
+          "y": 364,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "ManageMenu",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MOVING\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SwipeGesture::EnableSwipeDetection"
+                  },
+                  "parameters": [
+                    "",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MOVING\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"m\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Status",
+                        "=",
+                        "\"MENU_OPENING\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SwipeGesture::HasSwipeJustEnded"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "SwipeGesture::StartX()",
+                        ">",
+                        "SceneWindowWidth() - 80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "SwipeGesture::StartX() - SwipeGesture::EndX()",
+                        ">",
+                        "250"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Status",
+                        "=",
+                        "\"MENU_OPENING\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MENU_OPENING\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "MenuDiary",
+                    "ScreenWidth() + 50",
+                    "50",
+                    "\"GUI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToShow\"",
+                    "SceneWindowWidth() - MenuDiary.Width()",
+                    "50",
+                    "\"easeOutCubic\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToShow\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToShow\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToShow\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MENU_OPENED\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MENU_OPENED\""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MENU_OPENED\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToShow\"",
+                    "SceneWindowWidth() - MenuDiary.Width()",
+                    "50",
+                    "\"easeOutCubic\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SwipeGesture::HasSwipeJustEnded"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "SwipeGesture::StartX()",
+                        "<",
+                        "600"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "SwipeGesture::EndX() - SwipeGesture::StartX()",
+                        ">",
+                        "250"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "MenuDiary",
+                        "Tween",
+                        "\"ToHide\"",
+                        "ScreenWidth() + 50",
+                        "50",
+                        "\"easeOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"m\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "MenuDiary",
+                        "Tween",
+                        "\"ToHide\"",
+                        "ScreenWidth() + 50",
+                        "50",
+                        "\"easeOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToHide\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    "Tween",
+                    "\"ToHide\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Status",
+                    "=",
+                    "\"MOVING\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Effect\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "MenuDiary",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "GlobalVariableString(Status)",
+                    "\"info\"",
+                    "\"H\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 10,
+                "padding": 1,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "GUI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -16235,7 +17116,7 @@
               "parameters": [
                 "TestClock",
                 "=",
-                "5"
+                "1"
               ]
             }
           ],
